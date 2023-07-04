@@ -92,5 +92,5 @@ class Dataset(udata.Dataset):
         key = self.keys[index]
         data = np.array(h5f[key])# 通过索引读取文件
         h5f.close()
-        print()
+        print('a')
         return torch.Tensor(data)
