@@ -94,4 +94,5 @@ class Dataset(udata.Dataset):
         h5f.close()
         print('a')
         print('b')
+        print('c')
         return torch.Tensor(data)
